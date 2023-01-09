@@ -10,6 +10,10 @@ const SideBar = () => {
       <h1>
         <img src={logo} alt='Good Games Logo' />
       </h1>
+
+      <button>
+        catálogo
+      </button>
     </aside>
   );
 };
