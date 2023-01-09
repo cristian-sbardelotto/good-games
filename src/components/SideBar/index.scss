@@ -1,5 +1,5 @@
-$aside-background-color: #1E1E1E;
-$aside-button-color: #0300AB;
+$aside-background-color: #1e1e1e;
+$aside-button-color: #0300ab;
 
 aside {
   background-color: $aside-background-color;
@@ -13,14 +13,14 @@ aside {
   align-items: center;
   gap: 2rem;
 
-  img {
+  & > img {
     height: 2.75rem;
 
     cursor: pointer;
   }
 
-  button {
-    padding: .8rem;
+  & > button {
+    padding: 0.8rem;
     width: 80%;
 
     background-color: $aside-button-color;
@@ -31,13 +31,24 @@ aside {
 
     text-transform: uppercase;
 
-    transition: all .2s ease;
+    transition: all 0.2s ease;
 
     &:hover {
       cursor: pointer;
 
       background: unset;
       border-color: #fff;
+    }
+  }
+
+  & > ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+
+    li {
+      color: #fff;
     }
   }
 }

@@ -1,0 +1,10 @@
+div.secondary-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  span {
+    font-weight: 700;
+  }
+}
