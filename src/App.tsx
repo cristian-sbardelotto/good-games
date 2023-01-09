@@ -1,8 +1,12 @@
 import React from 'react';
 
+import SideBar from './components/SideBar';
+
+import './css/main.scss';
+
 const App = () => {
   return <div className='App'>
-    <p>adsda</p>
+    <SideBar />
   </div>;
 };
 
