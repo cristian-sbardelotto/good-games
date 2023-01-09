@@ -1,8 +1,9 @@
 import React from 'react';
 
-function App() {
-  return <div className='App'></div>;
-}
+const App = () => {
+  return <div className='App'>
+    <p>adsda</p>
+  </div>;
+};
 
 export default App;
-
