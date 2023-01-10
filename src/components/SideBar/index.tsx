@@ -7,6 +7,7 @@ import logo from '../../assets/logo.svg';
 import btnAccount from '../../assets/btn-account.svg';
 import btnSearch from '../../assets/btn-search.svg';
 import btnHeart from '../../assets/btn-heart.svg';
+import btnBag from '../../assets/btn-bag.svg';
 
 import './index.scss';
 
@@ -31,7 +32,12 @@ const SideBar = () => {
         <li>
           <Button image={btnHeart} text='Favoritos' />
         </li>
+        <li>
+          <Button image={btnBag} text='Saldo' />
+        </li>
       </ul>
+
+      <h3>categoria</h3>
     </aside>
   );
 };

@@ -51,4 +51,9 @@ aside {
       color: #fff;
     }
   }
+
+  & > h3 {
+    text-transform: uppercase;
+    color: #fff;
+  }
 }
