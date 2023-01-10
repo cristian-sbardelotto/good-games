@@ -10,49 +10,58 @@ aside {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   gap: 2rem;
 
-  & > img {
-    height: 2.75rem;
+  > .primary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.25rem;
 
-    cursor: pointer;
-  }
-
-  & > button {
-    padding: 0.8rem;
-    width: 80%;
-
-    background-color: $aside-button-color;
-    color: #fff;
-    font-weight: 700;
-    border-radius: 2rem;
-    border-color: $aside-button-color;
-
-    text-transform: uppercase;
-
-    transition: all 0.2s ease;
-
-    &:hover {
+    > h1 img {
+      height: 2.75rem;
       cursor: pointer;
+    }
 
-      background: unset;
-      border-color: #fff;
+    > button {
+      padding: 0.8rem 0;
+      width: 70%;
+
+      background-color: $aside-button-color;
+      color: #fff;
+      font-weight: 700;
+      border-radius: 2rem;
+      border-color: $aside-button-color;
+
+      text-transform: uppercase;
+
+      transition: all 0.2s ease;
+
+      &:hover {
+        cursor: pointer;
+
+        background: unset;
+        border-color: #fff;
+      }
     }
   }
 
-  & > ul {
+  > ul {
     list-style: none;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    padding-left: 2.5rem;
     gap: 1.75rem;
 
     li {
+      width: fit-content;
+
       color: #fff;
     }
   }
 
-  & > h3 {
+  > h3 {
     text-transform: uppercase;
     color: #fff;
   }
