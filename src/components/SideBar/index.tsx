@@ -15,12 +15,22 @@ import btnVRGlass from '../../assets/btn-vr-glass.svg';
 import btnKeyboard from '../../assets/btn-keyboard.svg';
 import btnPC from '../../assets/btn-pc.svg';
 
+import iconTwitter from '../../assets/icon-twitter.svg';
+import iconFacebook from '../../assets/icon-facebook.svg';
+import iconYoutube from '../../assets/icon-youtube.svg';
+import iconTiktok from '../../assets/icon-tiktok.svg';
+import iconWhatsapp from '../../assets/icon-whatsapp.svg';
+
+import btnHelp from '../../assets/btn-help.svg';
+import btnConditions from '../../assets/btn-conditions.svg';
+import btnInfo from '../../assets/btn-info.svg';
+
 import './index.scss';
 
 const SideBar = () => {
   return (
     <aside>
-      <div className='primary'>
+      <div className='primary-div'>
         <h1>
           <img src={logo} alt='Good Games Logo' />
         </h1>
@@ -28,7 +38,7 @@ const SideBar = () => {
         <button className='main-button'>catálogo</button>
       </div>
 
-      <ul>
+      <ul className='primary-list'>
         <li>
           <Button image={btnAccount} text='Perfil' />
         </li>
@@ -47,7 +57,7 @@ const SideBar = () => {
 
       <h3 style={{ textAlign: 'center' }}>categoria</h3>
 
-      <ul>
+      <ul className='primary-list'>
         <li>
           <Button image={btnMouse} text='Mouse' />
         </li>
@@ -71,6 +81,38 @@ const SideBar = () => {
         <li>
           <Button image={btnPC} text='Computador' />
         </li>
+      </ul>
+
+      <ul className='social'>
+        <li>
+          <img src={iconTwitter} alt='Twitter' />
+        </li>
+
+        <li>
+          <img src={iconFacebook} alt='Facebook' />
+        </li>
+
+        <li>
+          <img src={iconYoutube} alt='Youtube' />
+        </li>
+
+        <li>
+          <img src={iconTiktok} alt='TikTok' />
+        </li>
+
+        <li>
+          <img src={iconWhatsapp} alt='WhatsApp' />
+        </li>
+      </ul>
+
+      <ul className='primary-list'>
+        <Button image={btnHelp} text='Ajuda' />
+      </ul>
+      <ul className='primary-list'>
+        <Button image={btnConditions} text='Condições' />
+      </ul>
+      <ul className='primary-list'>
+        <Button image={btnInfo} text='Informações' />
       </ul>
     </aside>
   );

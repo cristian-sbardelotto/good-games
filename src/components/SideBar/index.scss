@@ -12,7 +12,7 @@ aside {
   justify-content: center;
   gap: 2rem;
 
-  > .primary {
+  > .primary-div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,13 +46,16 @@ aside {
     }
   }
 
-  > ul {
+  > ul.primary-list {
     list-style: none;
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding-left: 2.5rem;
     gap: 1.75rem;
+
+    margin-bottom: 1rem;
 
     li {
       width: fit-content;
@@ -64,5 +67,68 @@ aside {
   > h3 {
     text-transform: uppercase;
     color: #fff;
+  }
+
+  > ul.primary-list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    gap: 1.75rem;
+
+    margin-bottom: 1rem;
+
+    li {
+      width: fit-content;
+
+      color: #fff;
+    }
+  }
+
+  > .social {
+    justify-content: center;
+
+    li img {
+      height: 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 376px) {
+  aside {
+    width: 30vw;
+
+    > .primary-div button {
+      width: 80%;
+      font-size: 0.7rem;
+    }
+
+    > h3 {
+      font-size: 0.8rem;
+    }
+
+    > .social {
+      list-style: none;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.75rem;
+
+      margin-bottom: 1rem;
+
+      li img {
+        height: 1.5rem;
+      }
+    }
+
+    .secondary-button {
+      flex-direction: column;
+
+      span {
+        font-size: 0.8rem;
+      }
+    }
   }
 }
