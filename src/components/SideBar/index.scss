@@ -52,7 +52,7 @@ aside {
     display: flex;
     flex-direction: column;
     padding-left: 2.5rem;
-    padding-right: 2.5rem; 
+    padding-right: 2.5rem;
     gap: 1.75rem;
 
     margin-bottom: 1rem;
@@ -68,17 +68,6 @@ aside {
     text-transform: uppercase;
     color: #fff;
   }
-
-  // > ul.primary-list {
-  //   flex-direction: column;
-  //   justify-content: center;
-  //   align-items: center;
-  //   padding-left: 2.5rem;
-  //   padding-right: 2.5rem;
-  //   gap: 1.75rem;
-
-  //   margin-bottom: 1rem;
-  // }
 
   > .social {
     list-style: none;
