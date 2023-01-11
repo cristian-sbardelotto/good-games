@@ -106,13 +106,17 @@ const SideBar = () => {
       </ul>
 
       <ul className='primary-list'>
-        <Button image={btnHelp} text='Ajuda' />
-      </ul>
-      <ul className='primary-list'>
-        <Button image={btnConditions} text='Condições' />
-      </ul>
-      <ul className='primary-list'>
-        <Button image={btnInfo} text='Informações' />
+        <li>
+          <Button image={btnHelp} text='Ajuda' />
+        </li>
+
+        <li>
+          <Button image={btnConditions} text='Condições' />
+        </li>
+        
+        <li>
+          <Button image={btnInfo} text='Informações' />
+        </li>
       </ul>
     </aside>
   );
