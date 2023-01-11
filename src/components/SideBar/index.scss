@@ -12,6 +12,8 @@ aside {
   justify-content: center;
   gap: 2rem;
 
+  position: absolute;
+
   > .primary-div {
     display: flex;
     flex-direction: column;

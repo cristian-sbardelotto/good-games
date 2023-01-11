@@ -1,3 +1,42 @@
 main {
-  
+  position: relative;
+  left: 21.01vw;
+  width: 78.99vw;
+  background-color: #212123;
+
+  nav {
+    display: flex;
+    align-items: center;
+    padding: 1.25rem 3rem 0 3rem;
+    justify-content: space-between;
+
+    .user-menu {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      justify-content: space-around ;
+    }
+
+
+    .input-group {
+      position: relative;
+
+      input {
+        padding: 0.5rem 3rem 0.5rem 3rem;
+
+        background-color: #363638;
+
+        outline: none;
+        border: none;
+
+        border-radius: 5px;
+      }
+
+      img {
+        position: absolute;
+        top: 0.2rem;
+        left: 0.5rem;
+      }
+    }
+  }
 }
