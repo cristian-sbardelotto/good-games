@@ -1,0 +1,56 @@
+div.container {
+  position: absolute;
+  left: 32vw;
+
+  background-color: #28282a;
+
+  div.card {
+    position: relative;
+
+    padding: 0 1rem 0 1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    img.product-image {
+      position: absolute;
+      bottom: 9rem;
+    }
+
+    div.card-info-group {
+      display: flex;
+      flex-direction: column;
+      gap: .8rem;
+    }
+
+    h6 {
+      margin-top: 5rem;
+
+      font-weight: 900;
+      font-size: 1rem;
+    }
+
+    span.product-name {
+      font-weight: 300;
+      font-size: 0.85rem;
+    }
+
+    span.product-price {
+      color: #5b1691;
+
+      font-weight: 700;
+    }
+
+    button {
+      padding-bottom: 1rem;
+
+      background: unset;
+
+      text-transform: uppercase;
+
+      border: unset;
+    }
+  }
+}
