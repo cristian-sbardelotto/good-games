@@ -1,8 +1,5 @@
-$aside-background-color: #1e1e1e;
-$aside-button-color: #0300ab;
-
 aside {
-  background-color: $aside-background-color;
+  background-color: #1e1e1e;
 
   width: 21vw;
   padding-top: 3rem;
@@ -29,11 +26,11 @@ aside {
       padding: 0.8rem 0;
       width: 70%;
 
-      background-color: $aside-button-color;
+      background-color: #0300ab;
       color: #fff;
       font-weight: 700;
       border-radius: 2rem;
-      border-color: $aside-button-color;
+      border-color: #0300ab;
 
       text-transform: uppercase;
 

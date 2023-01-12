@@ -5,6 +5,9 @@ import iconUser from '../../assets/user.svg';
 import iconNotifications from '../../assets/icon-notifications.svg';
 import iconPaperBag from '../../assets/icon-paper-bag.svg';
 
+import iconFiveStars from '../../assets/icon-five-stars.svg';
+import iconHeadPhone from '../../assets/headphone.svg';
+
 import './index.scss';
 
 const Hero = () => {
@@ -26,35 +29,28 @@ const Hero = () => {
       </nav>
 
       <article>
-        <div>
-          <img src='' alt='' />
+        <section>
+          <img src={iconFiveStars} alt='five stars' className='five-stars' />
 
-          <h5></h5>
+          <h5>Headphones</h5>
 
-          <span></span>
-
-          <span></span>
+          <span className='gray'>”W103 Sinta a Mágica”</span>
+          <span className='purple'>headset</span>
 
           <hr />
 
-          <p></p>
+          <p>
+            Suas emoções começam quando você coloca os headphones, então não
+            perca essa oportunidade.
+          </p>
 
-          <button></button>
-          <button></button>
-        </div>
-
-        <div>
-          <img src='' alt='' />
-          <div>
-            <img src='' alt='' />
-            <p></p>
+          <div className='buttons'>
+            <button className='buy-btn'>Comprar</button>
+            <button className='cart-btn'>Adicionar ao Carrinho</button>
           </div>
+        </section>
 
-          <div>
-            <img src='' alt='' />
-            <p></p>
-          </div>
-        </div>
+        <img src={iconHeadPhone} alt='Headphone' className='headphone' />
       </article>
     </main>
   );
