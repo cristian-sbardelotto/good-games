@@ -1,7 +1,4 @@
 div.container {
-  position: absolute;
-  left: 32vw;
-
   background-color: #28282a;
 
   div.card {
@@ -22,7 +19,7 @@ div.container {
     div.card-info-group {
       display: flex;
       flex-direction: column;
-      gap: .8rem;
+      gap: 0.8rem;
     }
 
     h6 {
@@ -44,13 +41,18 @@ div.container {
     }
 
     button {
+      display: flex;
+      gap: 0.6rem;
+
       padding-bottom: 1rem;
 
       background: unset;
+      border: unset;
+
+      font-size: 0.7rem;
 
       text-transform: uppercase;
-
-      border: unset;
+      cursor: pointer;
     }
   }
 }
