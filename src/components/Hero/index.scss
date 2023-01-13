@@ -1,0 +1,123 @@
+main {
+  position: relative;
+  left: 21.01vw;
+  width: 78.99vw;
+  background-color: #212123;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 1.25rem 3rem 0 3rem;
+    margin-bottom: 3rem;
+    .user-menu {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    .input-group {
+      position: relative;
+
+      input {
+        padding: 0.5rem 3rem 0.5rem 3rem;
+
+        background-color: #363638;
+
+        outline: none;
+        border: none;
+
+        border-radius: 5px;
+      }
+
+      img {
+        position: absolute;
+        top: 0.2rem;
+        left: 0.5rem;
+      }
+    }
+  }
+
+  article {
+    background: linear-gradient(180deg, #4b006d 0%, rgba(241, 1, 232, 0) 100%);
+
+    margin: 0 4.5rem 0 3rem;
+    padding: 2rem 0 0 2rem;
+
+    display: flex;
+    justify-content: space-between;
+
+    section {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      position: relative;
+
+      gap: 1rem;
+
+      .five-stars {
+        height: 1.5rem;
+      }
+
+      h5 {
+        font-weight: 900;
+        font-size: 1.25rem;
+      }
+
+      .gray {
+        color: #838282;
+        font-weight: 900;
+        font-size: 1.25rem;
+      }
+
+      .purple {
+        color: #7f00e2;
+      }
+
+      hr {
+        width: 4.6875rem;
+      }
+
+      p {
+        max-width: 43ch;
+      }
+
+      .buttons {
+        display: flex;
+        gap: 2rem;
+      }
+
+      .buy-btn {
+        padding: 0.5rem 4rem 0.5rem 4rem;
+
+        background-color: #7f00e2;
+
+        border: none;
+        border-radius: 100px;
+
+        cursor: pointer;
+      }
+
+      .cart-btn {
+        padding: 0.5rem 1rem 0.5rem 1rem;
+
+        background: unset;
+
+        border: 1px solid #fff;
+        border-radius: 100px;
+
+        cursor: pointer;
+      }
+    }
+
+    .headphone {
+      position: absolute;
+
+      bottom: 10%;
+      left: 50%;
+    }
+  }
+}
