@@ -33,20 +33,4 @@ div.products-section {
       }
     }
   }
-
-  .first-list,
-  .second-list {
-    display: flex;
-    gap: 2rem;
-    position: absolute;
-    left: 24.3vw;
-  }
-
-  .first-list {
-    top: 33rem;
-  }
-
-  .second-list {
-    top: 48rem;
-  }
 }
