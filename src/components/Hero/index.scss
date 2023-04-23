@@ -98,7 +98,13 @@ main {
         border: none;
         border-radius: 100px;
 
-        cursor: pointer;
+        transition: 0.3s all ease;
+
+        &:hover {
+          cursor: pointer;
+          box-shadow: rgb(0, 0, 0) 0px 10px 30px -10px;
+          filter: brightness(0.85);
+        }
       }
 
       .cart-btn {
@@ -109,7 +115,14 @@ main {
         border: 1px solid #fff;
         border-radius: 100px;
 
-        cursor: pointer;
+        transition: 0.2s all ease;
+
+        &:hover {
+          cursor: pointer;
+          box-shadow: rgb(0, 0, 0) 0px 10px 30px -10px;
+          border-color: #b35df5;
+          color: #b35df5;
+        }
       }
     }
 
@@ -118,6 +131,12 @@ main {
 
       bottom: 10%;
       left: 50%;
+
+      transition: .2s all ease;
+
+      &:hover {
+        scale: 1.1;
+      }
     }
   }
 }
