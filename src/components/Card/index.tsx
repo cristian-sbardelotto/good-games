@@ -26,7 +26,7 @@ const Card = ({ image, title, name, price }: CardProps) => {
         </div>
 
         <button>
-          <img src={btnPlus} alt='Plus button' />
+          <img src={btnPlus} height={18} alt='Plus button' />
           adicionar ao cartão
         </button>
       </div>

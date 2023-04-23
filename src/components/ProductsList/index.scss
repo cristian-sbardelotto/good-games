@@ -1,0 +1,21 @@
+.first-list,
+  .second-list {
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    left: 24.3vw;
+
+
+    img:hover {
+      transition: .2s scale ease-in-out;
+      scale: 1.2;
+    }
+  }
+
+  .first-list {
+    top: 33rem;
+  }
+
+  .second-list {
+    top: 48rem;
+  }
