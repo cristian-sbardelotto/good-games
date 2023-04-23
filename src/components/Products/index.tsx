@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ProductsList from '../ProductsList';
+import { ProductsList } from '../ProductsList';
 
 import './index.scss';
 

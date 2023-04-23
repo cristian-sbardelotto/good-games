@@ -6,7 +6,7 @@ import Card from '../Card';
 
 import './index.scss';
 
-const ProductsList = () => {
+export const ProductsList = () => {
   return (
     <>
       <div className='first-list'>
@@ -35,5 +35,3 @@ const ProductsList = () => {
     </>
   );
 };
-
-export default ProductsList;
